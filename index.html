@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="src/CSS/image.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/reset.css">
+
+    <title>Izu</title>
+</head>
+<body>
+  
+ <!-- Script -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="./js/bootstrap.js"> </script>
+
+<header>
+ <h2 style="text-align:center">Izu Gallery</h2>
+
+ <div class="dark-light">
+    <input  onclick="myFunction()" type="checkbox" class="theme-checkbox">
+
+    <script src="src/JS/light.js"></script>
+ </div>
+ 
+</header>
+
+</body>
+</html>
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+
+<!--   Bullets do carrossel, se aumentar uma imagem, aumente um li e acrescento o próximo número -->
+ <ol class="carousel-indicators">
+   <li data-target="#carousel" data-slide-to="0" class="active"></li>
+   <li data-target="#carousel" data-slide-to="1"></li>
+   <li data-target="#carousel" data-slide-to="2"></li>
+   <li data-target="#carousel" data-slide-to="3"></li>
+ </ol>
+
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <h5 class="contador"> 1 / 4 <h5>
+     <img src="https://pbs.twimg.com/media/FbROjL2XwAAAjGW?format=jpg&name=large" alt="tengu mask">
+      <div class="titulo">
+       <h2> Tengu </h2>
+       <p> Arte baseada na lenda das criatura mitológica chamada Tengu, com pé no Budismo e Xintoísmo, essa criatura era uma espécie de goblin da montanha. Possuíam vários poderes e muito conhecimento sobre artes marciais. Eram tidos como seres malignos, apesar desse papel ter mudado com o tempo. Nessa ilustração há um contraste entre a lâmina na boca do ser e uma cruz santa em seus olhos, além do chifre em sua testa e a auréola acima de sua cabeça. </p>
+   </div>
+   </div>
+
+   <div class="carousel-item">
+     <h5 class="contador"> 2 / 4 <h5>
+     <img src=" https://pbs.twimg.com/media/FhDx-v0WIAAB6Bz?format=jpg&name=4096x4096" alt="">
+     <div class="titulo">
+     <h2> Aki </h2>
+     <p> Ilustração feita durante um drop de artes de Chainsawman em colaboração com outros dois artistas. Nesta ilustração em questão utilizei das minhas capacidades em ferramentas de edição do Photoshop para incrementar nas cores e contrastes do personagem Aki, do anime Chainsawman. Aki é fumante e caçador de demônios, mas isso não o impede de ter feito um contrato com um demônio raposa gigante, que é referenciado ao fundo na arte. </p>
+   </div>
+   </div>
+
+   <div class="carousel-item">
+     <h5 class="contador"> 3 / 4 <h5>
+     <img src="https://pbs.twimg.com/media/F5cB-g9WgAACSJq?format=jpg&name=large">
+     <div class="titulo">
+     <h2> Kame e Jiraya </h2>
+     <p> Eu e meu amigo desde que nos conhecemos nos chamamos de Kame (eu) e Jiraya (ele). Sem motivo específico, é um apelido que apenas nós dois nos damos e que acredito que ninguém saiba. Fiz essa arte em celebração a nossa amizade e contemplação da minha evolução na pintura digital. </p>
+   </div>
+   </div>
+ 
+
+ <div class="carousel-item">
+   <h5 class="contador"> 4 / 4 <h5>
+     <img src="https://pbs.twimg.com/media/FhDx_ASXwAAx5kW?format=jpg&name=medium">
+     <div class="titulo">
+     <h2> Love </h2>
+     <p> @lu323n é uma das minhas maiores inspirações e um artista incrível que sempre me motiva a criar cada vez mais com um estilo solto e mais confiante. Essa arte foi feita durante um "Draw this in your style" que ele postou em suas redes sociais. Sinto que pude expôr um pouco mais das minhas capacidades de redesign nessa arte. </p>
+   </div>
+   </div>
+
+ </div> <!-- Fecha elementos dentro do carrossel -->
+ 
+<!--   Controladores | Botões -->
+ <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="sr-only"> Previous </span>
+ </a>
+ <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="sr-only"> Next </span>
+ </a> 
+</div> <!-- Fim do carrossel -->
+     
+        <script src="src/JS/script.js"></script>
+
+</body>
+</html>
